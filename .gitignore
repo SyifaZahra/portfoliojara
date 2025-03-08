@@ -1,0 +1,11 @@
+﻿# Abaikan file gambar
+*.png
+*.jpg
+*.jpeg
+
+# Abaikan folder node_modules
+node_modules/
+
+# Abaikan file sementara
+*.log
+*.tmp
