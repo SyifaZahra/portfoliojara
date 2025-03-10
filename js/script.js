@@ -1,57 +1,137 @@
-let menuIcon = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
-let sections = document.querySelectorAll("section"); // Menggunakan querySelectorAll
-let navLinks = document.querySelectorAll("header nav a"); // Menggunakan querySelectorAll
-
-window.onscroll = () => {
-  sections.forEach((sec) => {
-    let top = window.scrollY;
-    let offset = sec.offsetTop - 150;
-    let height = sec.offsetHeight;
-    let id = sec.getAttribute("id");
-
-    if (top >= offset && top < offset + height) {
-      navLinks.forEach((link) => {
-        link.classList.remove("active");
+const _0x28c642 = _0x553c;
+(function (_0x4424fc, _0x1c7413) {
+  const _0x8f2c50 = _0x553c,
+    _0x553251 = _0x4424fc();
+  while (!![]) {
+    try {
+      const _0x5102af =
+        -parseInt(_0x8f2c50(0x1e4)) / 0x1 +
+        (parseInt(_0x8f2c50(0x1f5)) / 0x2) * (-parseInt(_0x8f2c50(0x20c)) / 0x3) +
+        (-parseInt(_0x8f2c50(0x1fe)) / 0x4) * (-parseInt(_0x8f2c50(0x1fa)) / 0x5) +
+        (parseInt(_0x8f2c50(0x20f)) / 0x6) * (-parseInt(_0x8f2c50(0x206)) / 0x7) +
+        (-parseInt(_0x8f2c50(0x20b)) / 0x8) * (-parseInt(_0x8f2c50(0x1f6)) / 0x9) +
+        -parseInt(_0x8f2c50(0x1e9)) / 0xa +
+        (-parseInt(_0x8f2c50(0x1fd)) / 0xb) * (-parseInt(_0x8f2c50(0x1e5)) / 0xc);
+      if (_0x5102af === _0x1c7413) break;
+      else _0x553251["push"](_0x553251["shift"]());
+    } catch (_0x28d869) {
+      _0x553251["push"](_0x553251["shift"]());
+    }
+  }
+})(_0x3b82, 0xf0294);
+function _0x3b82() {
+  const _0x43d15e = [
+    "append",
+    "1548094NXlYeQ",
+    "12ANYdID",
+    "no-cors",
+    "email",
+    "message",
+    "10181610UkoMPf",
+    "onscroll",
+    "bx-x",
+    "header\x20nav\x20a",
+    "https://script.google.com/macros/s/AKfycbz0FXjwGI61j-Dgfa_DWmfzU6WcFE_hm1UJNNPnRQbtMQaCS5EZ8QUEjqCfsukkLFg/exec",
+    "value",
+    "offsetTop",
+    "getAttribute",
+    "addEventListener",
+    "Pesan\x20berhasil\x20dikirim!",
+    "catch",
+    "getElementById",
+    "2788430pssuQQ",
+    "621FabXkE",
+    "remove",
+    "querySelector",
+    "toggle",
+    "65nQmSzZ",
+    ".navbar",
+    "add",
+    "37353305ETpQmI",
+    "37472dWbQLh",
+    "phoneNumber",
+    "subject",
+    "header\x20nav\x20a[href=\x22#",
+    "querySelectorAll",
+    "preventDefault",
+    "scrollY",
+    "forEach",
+    "133XsChbZ",
+    "active",
+    "reset",
+    "then",
+    "text",
+    "202728uFkXNO",
+    "3BZOzes",
+    "offsetHeight",
+    "contactForm",
+    "101652pNjOjl",
+    "section",
+    "Error:",
+    "submit",
+    "classList",
+    "onclick",
+    "#menu-icon",
+    "error",
+    "fullName",
+  ];
+  _0x3b82 = function () {
+    return _0x43d15e;
+  };
+  return _0x3b82();
+}
+let menuIcon = document[_0x28c642(0x1f8)](_0x28c642(0x1e0)),
+  navbar = document["querySelector"](_0x28c642(0x1fb)),
+  sections = document[_0x28c642(0x202)](_0x28c642(0x210)),
+  navLinks = document[_0x28c642(0x202)](_0x28c642(0x1ec));
+function _0x553c(_0x2948f7, _0x55672a) {
+  const _0x3b828b = _0x3b82();
+  return (
+    (_0x553c = function (_0x553c95, _0x53e623) {
+      _0x553c95 = _0x553c95 - 0x1df;
+      let _0x180740 = _0x3b828b[_0x553c95];
+      return _0x180740;
+    }),
+    _0x553c(_0x2948f7, _0x55672a)
+  );
+}
+(window[_0x28c642(0x1ea)] = () => {
+  const _0xd9607 = _0x28c642;
+  sections[_0xd9607(0x205)]((_0xbbe8fa) => {
+    const _0x8bb979 = _0xd9607;
+    let _0x2ebe56 = window[_0x8bb979(0x204)],
+      _0x2f8baf = _0xbbe8fa[_0x8bb979(0x1ef)] - 0x96,
+      _0x4a9129 = _0xbbe8fa[_0x8bb979(0x20d)],
+      _0x4f457f = _0xbbe8fa[_0x8bb979(0x1f0)]("id");
+    if (_0x2ebe56 >= _0x2f8baf && _0x2ebe56 < _0x2f8baf + _0x4a9129) {
+      navLinks[_0x8bb979(0x205)]((_0x1cf8e1) => {
+        const _0x17cf64 = _0x8bb979;
+        _0x1cf8e1[_0x17cf64(0x213)][_0x17cf64(0x1f7)](_0x17cf64(0x207));
       });
-
-    let activeLink = document.querySelector(`header nav a[href="#${id}"]`);
-      if (activeLink) {
-        activeLink.classList.add("active");
-      }
+      let _0x4893db = document[_0x8bb979(0x1f8)](_0x8bb979(0x201) + _0x4f457f + "\x22]");
+      _0x4893db && _0x4893db[_0x8bb979(0x213)][_0x8bb979(0x1fc)](_0x8bb979(0x207));
     }
   });
-};
-
-menuIcon.onclick = () => {
-  menuIcon.classList.toggle("bx-x");
-  navbar.classList.toggle("active");
-};
-
-document.getElementById("contactForm").addEventListener("submit", function (event) {
-  event.preventDefault(); // Mencegah halaman refresh setelah submit
-
-  const url = "https://script.google.com/macros/s/AKfycbz0FXjwGI61j-Dgfa_DWmfzU6WcFE_hm1UJNNPnRQbtMQaCS5EZ8QUEjqCfsukkLFg/exec"; // Ganti dengan URL Web App dari Google Apps Script
-  const formData = new FormData();
-
-  // Ambil data dari form
-  formData.append("fullName", document.getElementById("fullName").value);
-  formData.append("email", document.getElementById("email").value);
-  formData.append("phoneNumber", document.getElementById("phoneNumber").value);
-  formData.append("subject", document.getElementById("subject").value);
-  formData.append("message", document.getElementById("message").value);
-
-  // Kirim data ke Google Spreadsheet
-  fetch(url, {
-    method: "POST",
-    mode: "no-cors", 
-    body: formData,
-  })
-    .then((response) => response.text())
-    .then((data) => {
-      alert("Pesan berhasil dikirim!"); // Notifikasi jika berhasil
-      document.getElementById("contactForm").reset(); // Reset form setelah submit
-    })
-    .catch((error) => console.error("Error:", error));
-});
-
+}),
+  (menuIcon[_0x28c642(0x1df)] = () => {
+    const _0x34cc26 = _0x28c642;
+    menuIcon["classList"][_0x34cc26(0x1f9)](_0x34cc26(0x1eb)), navbar["classList"]["toggle"]("active");
+  }),
+  document["getElementById"](_0x28c642(0x20e))[_0x28c642(0x1f1)](_0x28c642(0x212), function (_0xf5c7be) {
+    const _0x398cd7 = _0x28c642;
+    _0xf5c7be[_0x398cd7(0x203)]();
+    const _0x4c6d31 = _0x398cd7(0x1ed),
+      _0x481043 = new FormData();
+    _0x481043[_0x398cd7(0x1e3)](_0x398cd7(0x1e2), document[_0x398cd7(0x1f4)](_0x398cd7(0x1e2))["value"]),
+      _0x481043[_0x398cd7(0x1e3)](_0x398cd7(0x1e7), document[_0x398cd7(0x1f4)](_0x398cd7(0x1e7))[_0x398cd7(0x1ee)]),
+      _0x481043[_0x398cd7(0x1e3)](_0x398cd7(0x1ff), document["getElementById"](_0x398cd7(0x1ff))["value"]),
+      _0x481043[_0x398cd7(0x1e3)](_0x398cd7(0x200), document[_0x398cd7(0x1f4)](_0x398cd7(0x200))["value"]),
+      _0x481043[_0x398cd7(0x1e3)](_0x398cd7(0x1e8), document[_0x398cd7(0x1f4)](_0x398cd7(0x1e8))[_0x398cd7(0x1ee)]),
+      fetch(_0x4c6d31, { method: "POST", mode: _0x398cd7(0x1e6), body: _0x481043 })
+        [_0x398cd7(0x209)]((_0xc9641b) => _0xc9641b[_0x398cd7(0x20a)]())
+        [_0x398cd7(0x209)]((_0x48d8a2) => {
+          const _0x1cbeba = _0x398cd7;
+          alert(_0x1cbeba(0x1f2)), document[_0x1cbeba(0x1f4)](_0x1cbeba(0x20e))[_0x1cbeba(0x208)]();
+        })
+        [_0x398cd7(0x1f3)]((_0x93465f) => console[_0x398cd7(0x1e1)](_0x398cd7(0x211), _0x93465f));
+  });
