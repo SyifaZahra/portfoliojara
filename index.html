@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="Content-Security-Policy"
         content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:;"> -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; 
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; 
                        style-src 'self' https://unpkg.com; 
-                       font-src 'self' https://unpkg.com;">
+                       font-src 'self' https://unpkg.com;"> -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        connect-src 'self' https://script.googleusercontent.com https://script.google.com;
+        style-src 'self' https://unpkg.com;
+        font-src 'self' https://unpkg.com;
+     ">
     <title>Portfolio Zahra Syifa</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -138,8 +144,10 @@
                     <h3>SPORTSCORE | UI UX</h3>
                     <img src="img/ss.png" alt="ss">
                     <p>
-                        Sport Score is a digital platform that provides real-time, fast, and accurate updates on sports match scores. We deliver
-                        live updates from various sports such as football, basketball, volleyball, tennis, and even e-sports — complete with
+                        Sport Score is a digital platform that provides real-time, fast, and accurate updates on sports
+                        match scores. We deliver
+                        live updates from various sports such as football, basketball, volleyball, tennis, and even
+                        e-sports — complete with
                         player statistics, standings, match schedules, and the latest news.</p>
                 </div>
             </div>
